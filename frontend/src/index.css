@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --color-blue-100: #f9fbfc;
+  --color-blue-200: #e0e7ff;
+  --color-blue-400: #ccd7fe;
+  --color-blue-600: #5046e4;
+  --color-blue-800: #3a32a5;
+
+  --color-gray-200: #aaacad;
+  --color-gray-400: #727377;
+  --color-gray-600: #666676;
+  --color-gray-800: #4d4f53;
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  --animate-fadeIn: fadeIn 0.4s ease-in-out;
+}
+
+@layer base {
+  body {
+    @apply bg-blue-100;
+  }
+}
+
+@utility no-scrollbar {
+  @apply [scrollbar-width:none] [&::-webkit-scrollbar]:hidden;
+}
