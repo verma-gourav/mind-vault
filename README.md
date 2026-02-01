@@ -6,7 +6,10 @@ A second brain like website where you can store important tweets, links, documen
 
 ## DEMO
 
-![Video](https://github.com/user-attachments/assets/4fe23a67-c5b8-4a52-a05c-55215d3e5139)
+![Quick Preview](./mindvault.gif)
+
+Full demo video:
+https://github.com/user-attachments/assets/4fe23a67-c5b8-4a52-a05c-55215d3e5139
 
 ---
 
